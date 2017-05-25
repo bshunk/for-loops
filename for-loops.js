@@ -6,3 +6,5 @@ function count (incrimentNumber) {
 	for (var i = 5; i >= 5; i + 10) {
 	}
 };
+
+console.log(Currect value is ${incrimentNumber[i]})
