@@ -6,6 +6,8 @@ for (var i = 5; i < 120; i = i + 10) {
 	console.log(`Current value is ${i}`)
 }
 
+
+
 //Decrement by division
 
 // Write a for loop with a counter variable initialized at 4096. Each time the loop executes divide the counter variable's value by 2. Use console.log() to output its value every time. When the counter variable's value is 1, stop execution.
@@ -14,55 +16,114 @@ for (var i = 4096; i > 1; i = i / 2) {
 	console.log(`Current value is ${i}`)
 }
 
-//*****************PRESIDENTIAL ARRAY*****************************
-//Array iteration
+
+
+//Array iteration- Presidents
+
 // Create an array that contains the names of American Presidents. Loop over that array with a for loop, and use string concatenation with console.log() to output the order and name of each President (see example below).
 
 var presidents = [
-"George Washington, 1789-1797",
-"John Adams, 1797-1801",
-"Thomas Jefferson, 1801-1809",
-"James Madison, 1809-1817",
-"James Monroe, 1817-1825",
-"John Quincy Adams, 1825-1829",
-"Andrew Jackson, 1829-1837",
-"Martin Van Buren, 1837-1841",
-"William Henry Harrison, 1841",
-"John Tyler, 1841-1845",
-"James Knox Polk, 1845-1849",
-"Zachary Taylor, 1849-1850",
-"Millard Fillmore, 1850-1853",
-"Franklin Pierce, 1853-1857",
-"James Buchanan, 1857-1861",
-"Abraham Lincoln, 1861-1865",
-"Andrew Johnson, 1865-1869",
-"Ulysses S. Grant, 1869-1877",
-"Rutherford Birchard Hayes, 1877-1881",
-"James Abram Garfield, 1881",
-"Chester Alan Arthur, 1881-1885",
-"Grover Cleveland, 1885-1889",
-"Benjamin Harrison, 1889-1893",
-"Grover Cleveland, 1893-1897",
-"William McKinley, 1897-1901",
-"Theodore Roosevelt, 1901-1909",
-"William Howard Taft, 1909-1913",
-"Woodrow Wilson, 1913-1921",
-"Warren Gamaliel Harding, 1921-1923",
-"Calvin Coolidge, 1923-1929",
-"Herbert Clark Hoover, 1929-1933",
-"Franklin Delano Roosevelt, 1933-1945",
-"Harry S. Truman, 1945-1953",
-"Dwight David Eisenhower, 1953-1961",
-"John Fitzgerald Kennedy, 1961-1963",
-"Lyndon Baines Johnson, 1963-1969",
-"Richard Milhous Nixon, 1969-1974",
-"Gerald Rudolph Ford, 1974-1977",
-"James Earl Carter, Jr., 1977-1981",
-"Ronald Wilson Reagan, 1981-1989",
-"George Herbert Walker Bush, 1989-1993",
-"William Jefferson Clinton, 1993-2001",
-"George Walker Bush, 2001-2009",
-"Barack Hussein Obama, 2009-2017",
-"Donald Drumpf, 2017-End of the world"
-]
+"George Washington",
+"John Adams",
+"Thomas Jefferson",
+"James Madison",
+"James Monroe",
+"John Q. Adams",
+"Andrew Jackson",
+"Martin Van Buren",
+"William H. Harrison",
+"John Tyler",
+"James K. Polk",
+"Zachary Taylor",
+"Millard Fillmore",
+"Franklin Pierce",
+"James Buchanan",
+"Abraham Lincoln",
+"Andrew Johnson",
+"Ulysses S. Grant",
+"Rutherford B. Hayes",
+"James A. Garfield",
+"Chester A. Arthur",
+"Grover Cleveland",
+"Benjamin Harrison",
+"Grover Cleveland",
+"William McKinley",
+"Theodore Roosevelt",
+"William H. Taft",
+"Woodrow Wilson",
+"Warren G. Harding",
+"Calvin Coolidge",
+"Herbert C. Hoover",
+"Franklin D. Roosevelt",
+"Harry S. Truman",
+"Dwight D. Eisenhower",
+"John F. Kennedy",
+"Lyndon B. Johnson",
+"Richard M Nixon",
+"Gerald R Ford",
+"James E Carter, Jr.",
+"Ronald W Reagan",
+"George H.W. Bush",
+"William J. Clinton",
+"George W. Bush",
+"Barack H. Obama",
+"Donald Drumpf"
+];
+
+for (var i = 0; i < presidents.length; i++) {
+	console.log("President #" + [i + 1] +" was " + presidents[i]);
+}
+
+
+
+// Object iteration
+
+// You can use another kind of for loop to iterate over objects. Iterate over the object below and use console.log() to output the names of the keys in the object.
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+
+for (var prop in antSpecies) {
+	console.log(prop);
+}
+
+// Output:
+// "obj.a = a"
+// "obj.a = b"
+// "obj.a = c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
